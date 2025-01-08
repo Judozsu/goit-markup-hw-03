@@ -23,10 +23,11 @@ img {
     padding: 0 15px;
     margin: 0 auto;  
     }
-.cap{
-    display: flex;
-    flex-direction: row;
-}
+.advantage h2{
+        visibility: hidden;
+    }
+
+
 body{
     font-family: "Roboto", sans-serif;
     background: #fff;
@@ -42,9 +43,23 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
-.logo-first {
+.blue{
     color:#2e2f42;
+}
+.header-nav{
+    display: flex;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+    height: 72px;
+    max-width: 1158px;
+    padding: 0 15px;
 }
 .menu{
     display: flex;
@@ -53,6 +68,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    gap: 40px;
 }
 .menu-nav{
     color:#2e2f42;
@@ -66,12 +82,17 @@ body{
 .logo-navigation:hover{
     color:#404bbf;
 }
+.adress ul{
+    display: flex;
+    gap: 40px;
+}
 .adr{
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 .contacts{
     color:#434455;
@@ -90,6 +111,7 @@ body{
     
 }
 .page-main-title{
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -156,6 +178,7 @@ body{
 }
 .team{
     background: #f4f4fd;
+    height: 732px;
 }
 .team-link{
     display: flex;
@@ -173,6 +196,7 @@ body{
     color: #2e2f42;
     margin-bottom: 72px;
 }
+
 .team-our{
     background-color: #FFFFFF;
     display: flex;
@@ -186,8 +210,19 @@ body{
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    margin-top: 0;
-    margin-bottom: 120px;
+
+}
+.team-card{
+    max-width: 1158px;
+    padding: 0 15px;
+}
+.team-our .team-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+
 }
 .team-our-title{
     font-weight: 500;
@@ -204,6 +239,14 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+.portfolio-box{
+    display: flex;
+    width: 1128px;
+    height: 1000px;
+}
+.portfolio-card{
+    
 }
 .portfolio-title{
     font-weight: 700;
