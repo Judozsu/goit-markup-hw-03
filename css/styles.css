@@ -1,4 +1,5 @@
- 
+
+
  h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -10,14 +11,27 @@ ul, ol {
     margin: 0;
     padding-left: 0;
 }
+section{
+    padding: 120px 0;
+}
 img {
     display: block;
     margin: 0 auto; 
+}
+.container { 
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;  
+    }
+.cap{
+    display: flex;
+    flex-direction: row;
 }
 body{
     font-family: "Roboto", sans-serif;
     background: #fff;
     color: #434455;
+
     
 }
 .logo{
@@ -33,6 +47,7 @@ body{
     color:#2e2f42;
 }
 .menu{
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -67,6 +82,13 @@ body{
 .page-main{
     background: #2e2f42;
 }
+.page-main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
 .page-main-title{
     font-weight: 700;
     font-size: 56px;
@@ -74,6 +96,8 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin: 188px auto 48px;
+    
 }
 .page-main-button{
     font-family: "Roboto", sans-serif;
@@ -84,6 +108,14 @@ body{
     color: #fff;
     cursor: pointer;
     background: #4d5ae5;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin: 0 auto 188px;
+    
 }
 .page-main-button:hover{
     background: #404bbf;
@@ -91,12 +123,28 @@ body{
 .page-main-button:focus{
     background-color: #404BBF;
 }
+
+.advantage{
+    align-items: baseline;
+}
 .advantage-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+}
+.advantage-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin: auto 24px;
+}
+.advantage-list{
+    display: flex;
 }
 .advantage-text{
     
@@ -104,9 +152,16 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 0;
 }
 .team{
     background: #f4f4fd;
+}
+.team-link{
+    display: flex;
+    gap: 24px;
+    margin-top: 120px;
+    
 }
 .team-title{
     font-weight: 700;
@@ -116,9 +171,23 @@ body{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .team-our{
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px; 
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 120px;
 }
 .team-our-title{
     font-weight: 500;
