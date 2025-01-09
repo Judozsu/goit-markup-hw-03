@@ -199,9 +199,7 @@ body{
     color: #2e2f42;
     margin-bottom: 72px;
 }
-.advantage-head{
-    
-}
+
 .team-our{
     background-color: #FFFFFF;
     display: flex;
@@ -248,7 +246,7 @@ body{
     row-gap: 48px;
 }
 .portfolio-list{
-    calc((100% - 48px) / 3);
+    max-width:calc((100% - 48px) / 3);
 }
 
 .portfolio-card{
@@ -261,7 +259,7 @@ body{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: colum;
     gap: 8px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
@@ -283,7 +281,7 @@ body{
 
 .portfolio-box{
     display: flex;
-    flex-direction: column;
+    
 }
 .portfolio-title{
     font-weight: 700;
