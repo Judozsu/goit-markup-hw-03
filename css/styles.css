@@ -16,7 +16,7 @@ body{
 
     
 }
-.img{
+img{
     display: block;
 }
 section{
@@ -28,6 +28,7 @@ section{
 }
 .cap-item{
     display: flex;
+    align-items: center;
     
 
 }
@@ -63,6 +64,9 @@ section{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.navigation{
+    padding: 24px 0;
+}
 .menu-nav{
     color:#2e2f42;
 }
@@ -94,6 +98,7 @@ section{
 }
 .page-main{
     background: #2e2f42;
+    padding: 188px 0;
 }
 .page-main-title{
     max-width: 496px;
