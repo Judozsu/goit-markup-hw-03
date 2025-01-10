@@ -3,7 +3,7 @@ a {
     text-decoration: none;
 }
 h1 h2 h3 h4 h5 h6 p{
-
+    list-style: none;
 }
 ul, ol {
     list-style: none;
@@ -12,6 +12,7 @@ body{
     font-family: "Roboto", sans-serif;
     background: #fff;
     color: #434455;
+   
 
     
 }
@@ -23,14 +24,16 @@ section{
 }
 .cap .container{
     display: flex;
+    
 }
 .cap-item{
     display: flex;
-    align-items: center;
+    
 
 }
-.conteiner{
-    max-width: 1158px;
+.container{
+    justify-content: space-evenly;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -185,7 +188,6 @@ section{
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
-    height: 380px;
 
 }
 .team-our-title{
