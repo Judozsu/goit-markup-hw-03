@@ -63,7 +63,8 @@ section{
     color: #2e2f42;
 }
 .menu-list{
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .menu-nav{
     color:#2e2f42;
@@ -104,8 +105,9 @@ section{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
+    text-align: center;
+    
 }
 .page-main-button{
     display: block;
