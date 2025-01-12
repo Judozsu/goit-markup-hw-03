@@ -4,17 +4,17 @@ a {
 }
 h1, h2, h3, h4, h5, h6{
     list-style: none;
-    margin: 0 auto;
+    margin: 0;
 }
 p{
     list-style: none;
-    margin: 0 auto;
+    margin: 0;
 }
 
 ul, ol, li{
     padding-left: 0;
     list-style: none;
-    margin: 0 auto;
+    margin: 0;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -41,7 +41,6 @@ section{
 
 }
 .container{
-    justify-content: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
